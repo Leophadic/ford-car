@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/82e516008a.js" crossorigin="anonymous"></script>
+       
+      </head>
+        </head>
+<body>
+
+  <!-- This will center text on mobile, and left align it on screens 640px and wider -->
+<div class="text-center sm:text-center"></div>
+<div class="full">
+   <header>
+    <div class="navbar">
+        <div class="logo"><a href="#">FORD CAR</a></div>
+        <ul class="links">
+<li><a href="hero">Home</a></li> 
+<li><a href="about">About</a></li>
+<li><a href="services">Services</a></li>
+<li><a href="contact">contact </a></li>
+        </ul>
+        <li><a href="#" class="action_btn">Get Started</a></li>
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+           </div>
+           <div class="dropdown_menu">
+            <li><a href="hero">Home</a></li>
+<li><a href="about">About</a></li>
+<li><a href="services">Services</a></li>
+<li><a href="contact">Contact</a></li>
+<li><a href="#" class="action_btn">Get Started</a></li>
+           </div>
+   </header> 
+
+   <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+   const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+
+      toggleBtnIcon.classList = isOpen
+      ? 'fa-solid fa-xmark'
+      : 'fa-solid fa-bars'
+    }
+       </script>
+
+       <div class="main">
+<div class="content">
+<h1>FORD</h1>
+<h4>Brand New <span>"Muscle Car"</span> </h4>
+<h5>Building Yesterday's Dream Car's Today</h5>
+<button type="button">Get started</button>
+<button type="button">Take a Ride</button>
+</div>
+<div class="image">
+  <img src="img/IMG_E8569.JPG" alt="">
+</div>
+       </div>
+</div>
+<section>
+  <div class="about">
+  <h1>ABOUT</h1>
+  <p class="ptag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis error ducimus explicabo nesciunt veritatis, <br> alias consectetur similique. Ut, rerum. Eligendi, nisi. Delectus nihil natus odio fuga non vel quaerat ullam <br> aperiam. Earum eius possimus quaerat deserunt laudantium, voluptatem a harum id esse est <br> voluptatibus, commodi saepe reiciendis quo corporis ex?</p>
+ 
+<div class="head">
+  <div class="body">
+<h2>R8</h2>AGILITY <br>built for speed with a 5.2 litre <br>vio engine
+  </div>
+  <div class="body">
+    <i class="fa-solid fa-gauge"></i>PERFORMANCE <br> According from zero to 60 <br>mph in 32s
+  </div>
+  <div class="body">
+    <i class="fa-solid fa-bolt"></i>CUTTING EDGE <br>sharing half of its  parts with <br>the R8 LMS racecar
+  </div>
+</div>
+</div>
+</section>
+</div>
+<form>
+  <div class="head1">
+    <table>
+      <tr>
+        <th>Tech Spaces</th>
+        <th class="engine">Engine</th>
+        </tr>
+        <tr>
+        <td>Engine displacement</td>
+        <td>5204</td>
+        </tr>
+      <tr>
+        <td>maximum power</td>
+        <td>601.4 bhp @ 8250 rpm</td>
+        </tr>
+        <tr>
+          <td>maximum torque</td>
+          <td>560 Nm @ 6500 rpm</td>
+          </tr>
+          <tr>
+       <td>Turning radus</td>
+       <td>5.9 m</td>
+      </tr>
+       <tr>
+      <td>No. of cylinders</td>
+      <td>10</td>
+      </tr>
+      <tr>
+       <td>Drive Type</td>
+       <td>AWD</td>
+       </tr>
+      <tr>
+      <td>Turbo Charger</td>
+       <td>No</td>
+      </tr>
+     <tr>
+     <td>Super Charger</td>
+     <td>Yes</td>
+    </tr>
+    </table>
+      </div>
+      <div class="imm">
+        <img src="img/IMG_E8571 (2).JPG" alt="">
+      </div>
+</form>
+</div>
+<div class="card1"><i class="fa-solid fa-quote-left"></i>
+<div class="card2">
+<img src="img/customers.jpg" alt="">
+<h6>Jason Madison</h6>
+<p><strong>"FORD</strong> is a good product and it makes travelling easy for me thanks to <strong>FORD"</strong></p>
+<div class="iconss">
+  <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+  <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+  <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+  <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+  <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+  <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+</div>
+</div>
+<div class="card2">
+  <img src="img/customer1.jpg" alt="">
+  <h6>Scott Bryan</h6>
+  <p>"well <strong>FORD</strong> is an amazing product and i love it i give it 3 & 1/2 star"</p>
+  <div class="iconss">
+    <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+    <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+    <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+    <i class="fa-solid fa-star-half-stroke" style="color: #fbca41;"></i>
+    <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+    <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+  </div>
+   </div>
+     <div class="card2">
+      <img src="img/customer2.jpg" alt="">
+      <h6>Mary Jane</h6>
+      <p>"I enjoyed driving my <strong>FORD</strong> car to anywhere i like cause i am sure of it"</p>
+      <div class="iconss">
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star-half-stroke" style="color: #fbca41;"></i>
+        <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+        <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+        <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+      </div>
+      </div>
+       <div class="card2">
+      <img src="img/customer3.jpg" alt="">
+      <h6>Lisa Mitchell</h6>
+      <p><strong>"FORD</strong> as being my  best car so far i enjoyed driving to work daily"</p>
+      <div class="iconss">
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-solid fa-star" style="color: #fbca41;"></i>
+        <i class="fa-regular fa-star" style="color: #fbca41;"></i>
+      </div>
+      </div> <br> <i class="fa-solid fa-quote-right" style="color: #101010;"></i>
+        </div>
+</body>
+</html>
